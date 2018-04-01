@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">I am on google page (PASSED : 0s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1050" started-at="2018-04-01T18:26:38Z" finished-at="2018-04-01T18:26:39Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:BDDMaven.BDDMaven.TestRunner@ae45eb6]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="1050" started-at="2018-04-01T18:26:38Z" finished-at="2018-04-01T18:26:39Z">
+      <class name="BDDMaven.BDDMaven.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:BDDMaven.BDDMaven.TestRunner@ae45eb6]" name="setUpClass" is-config="true" duration-ms="332" started-at="2018-04-01T18:26:38Z" finished-at="2018-04-01T18:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="instentiateDriver()[pri:0, instance:BDDMaven.BDDMaven.TestRunner@ae45eb6]" name="instentiateDriver" is-config="true" duration-ms="0" started-at="2018-04-01T18:26:39Z" finished-at="2018-04-01T18:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instentiateDriver -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:BDDMaven.BDDMaven.TestRunner@ae45eb6]" name="runScenario" duration-ms="588" started-at="2018-04-01T18:26:39Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2018-04-01T18:26:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify google window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Google"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">I am on google page (PASSED : 0s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:BDDMaven.BDDMaven.TestRunner@ae45eb6]" name="tearDownClass" is-config="true" duration-ms="39" started-at="2018-04-01T18:26:39Z" finished-at="2018-04-01T18:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- BDDMaven.BDDMaven.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,35 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify google window",
+        "description": "",
+        "id": "google;verify-google-window",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 563577687,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on google page",
+            "match": {
+              "location": "AppTestStepDef.launchGoogle()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Google",
+    "description": "",
+    "id": "google",
+    "keyword": "Feature",
+    "uri": "src/test/resource/feature/google.feature",
+    "tags": []
+  }
+]
